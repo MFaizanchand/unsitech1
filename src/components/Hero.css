@@ -1,0 +1,35 @@
+
+.hero{
+    background-image: linear-gradient(#3c579c , white);
+}
+.image-container {
+    position: relative;
+    /* Set the desired height of your container */
+    height: 390px;
+    overflow: hidden;
+    background-color: #1e40af; /* Background color that will be revealed */
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 20px); /* Initially smaller to reveal background */
+    height: calc(100% - 20px); /* Initially smaller to reveal background */
+    transition: width 0.5s ease, height 0.5s ease;
+  }
+  
+  .image-container:hover img {
+    width: 100%; /* Expand image to full width */
+    height: 100%; /* Expand image to full height */
+  }
+  
+  
+  .hero .nav-container {
+    background: inherit; /* Inherit gradient background from hero */
+}
+
+.navlink {
+    background: inherit; /* Inherit gradient background from hero */
+}
+  
