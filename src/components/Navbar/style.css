@@ -1,0 +1,16 @@
+.nav{
+  
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff; /* Ensure it matches the background color of your parent container */
+    border: none;
+    box-shadow: none;
+
+  
+}
+.menu-item {
+    margin: 0;
+    padding: 8px 16px; /* Adjust padding as needed */
+    background-color: #ffffff; /* Ensure all items have the same background color */
+    border: none;
+}
